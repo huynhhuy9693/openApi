@@ -1,0 +1,90 @@
+openapi: 3.0.1
+info:
+  title: defaultTitle
+  description: defaultDescription
+  version: '0.1'
+servers:
+  - url: http://localhost:8081
+paths:
+  /admin-product/category/id:
+    get:
+      description: Auto generated using Swagger Inspector
+      responses:
+        '200':
+          description: Auto generated using Swagger Inspector
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  name:
+                    type: string
+                  id:
+                    type: integer
+                  status:
+                    type: boolean
+
+      servers:
+        - url: http://localhost:8081
+    servers:
+      - url: http://localhost:8081
+  /admin-product/category/31:
+    delete:
+      description: Auto generated using Swagger Inspector
+      responses:
+        '200':
+          description: Auto generated using Swagger Inspector
+      servers:
+        - url: http://localhost:8081
+    servers:
+      - url: http://localhost:8081
+  /admin-product/category:
+    post:
+      description: Auto generated using Swagger Inspector
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                status:
+                  type: boolean
+
+      responses:
+        '200':
+          description: Auto generated using Swagger Inspector
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  name:
+                    type: string
+                  id:
+                    type: integer
+                  status:
+                    type: boolean
+
+      servers:
+        - url: http://localhost:8081
+    servers:
+      - url: http://localhost:8081
+  /admin-product/categories:
+    get:
+      description: Auto generated using Swagger Inspector
+      responses:
+        '200':
+          description: Auto generated using Swagger Inspector
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: {}
+
+
+      servers:
+        - url: http://localhost:8081
+    servers:
+      - url: http://localhost:8081
